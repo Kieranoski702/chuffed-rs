@@ -1,6 +1,4 @@
 #!/bin/bash
 
-mkdir -p vendor/build
-
 cd vendor/ || exit
-./configure
+cmake -B build -S .
