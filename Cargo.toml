@@ -1,5 +1,5 @@
 [package]
-name = "chuffed-rs"
+name = "chuffed_rs"
 version = "0.1.0"
 authors = ["Kieran Fowlds <kf77@st-andrews.ac.uk>"]
 edition = "2021"
