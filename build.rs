@@ -13,8 +13,8 @@ fn main() {
 
     // must be ./ to be recognised as relative path
     // from project root
-    println!("cargo:rustc-link-search=all=./solvers/chuffed/vendor/build/");
-    println!("cargo:rustc-link-lib=static=minion");
+    println!("cargo:rustc-link-search=all=./vendor/build/");
+    println!("cargo:rustc-link-lib=static=chuffed");
 
     // also need to (dynamically) link to c++ stdlib
     // https://flames-of-code.netlify.app/blog/rust-and-cmake-cplusplus/
